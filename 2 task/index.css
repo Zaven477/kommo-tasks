@@ -1,0 +1,639 @@
+html {
+    box-sizing: border-box;
+}
+
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+}
+
+
+.friendly {
+    width: 800px;
+    margin: 0 auto;
+    background: #0E0142;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+
+
+
+.welbex {
+    width: 740px;
+    color: #FFFFFF;
+    font-size: 29px;
+    margin: 0 auto;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+
+.friend {
+    position: absolute;
+    width: 200px;
+    top: 10px;
+    left: 200px;
+}
+
+
+.mobile {
+    width: 740px;
+    color: #FFFFFF;
+    font-size: 29px;
+    margin: 0 auto;
+    font-weight: 700;
+    padding-bottom: 33px;
+}
+
+
+.tests {
+    width: 740px;
+    color: #FFFFFF;
+    font-size: 29px;
+    margin: 0 auto;
+    font-weight: 700;
+    padding-bottom: 33px;
+}
+
+
+.size {
+    font-size: 18px;
+    
+}
+
+
+
+.remin {
+    position: absolute;
+    width: 200px;
+    right: 100px;
+    bottom: -45px;
+}
+
+
+.header {
+    background: linear-gradient(to right, #000000 55.96%, #57B8FF 50%);
+    margin-top: 260px;
+    
+}
+
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+    
+}
+
+
+.container-inner {
+   display: flex;
+   gap: 222px;
+   align-items: center;
+   position: relative;
+}
+
+
+.container-inner::after {
+    content: url("images/Rectangle.png");
+    position: absolute;
+    left: 1085px;
+    top: 27px;
+    
+}
+
+
+
+
+.logo-infinizai {
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.header-menu-list {
+    display: flex;
+    gap: 60px;
+    
+}
+
+.header-menu-item {
+    color: #FFFFFF;
+    list-style: none;
+}
+
+
+.header-menu-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    
+    
+}
+
+
+.image-cart {
+    padding-left: 107px;
+    
+    
+}
+
+
+.btn-contacts {
+    border: 1px solid #FFFFFF;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 20px 39px 20px 39px;
+    position: absolute;
+    left: 1127px;
+    top: 20px;
+}
+
+
+.header-menu-link-home  {
+    text-decoration: none;
+    color: #FAC422;
+    font-size: 16px;
+    position: relative;
+}
+
+
+.header-menu-link-home::after {
+    content: url("images/0.png");
+    position: absolute;
+    left: 699px;
+    bottom: 11px;
+    z-index: 5;
+}
+
+
+
+.footer {
+    background: #222730;
+}
+
+
+.footer-infinizai-logo {
+    margin-bottom: 35px;
+    
+}
+
+
+
+.footer-text {
+    color: #999999;
+    font-size: 15px;
+    line-height: 25px;
+    width: 289px;
+    padding-bottom: 194px;
+}
+
+
+
+.footer-infinizai {
+    display: flex;
+    padding-top: 130px;
+    gap: 150px;
+}
+
+
+.footer-menu-link {
+    text-decoration: none;
+    color: #999999;
+    font-size: 15px;
+    line-height: 37px;
+}
+
+
+.footer-menu-list {
+    list-style: none;
+    padding-top: 23px;
+}
+
+
+.menu-title {
+    color: #FFFFFF;
+    font-size: 18px;
+    
+}
+
+
+.esports-image {
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+
+.esports-text {
+    color: #57B8FF;
+    font-size: 16px;
+    padding-top: 6px;
+}
+
+
+.esports-image-text {
+    display: flex;
+    gap: 8px;
+    padding-top: 291px;
+    margin-bottom: 14px;
+    position: relative;
+}
+
+
+.esports-image-text::before {
+    content: url("images/TWITCH.png");
+    position: absolute;
+    left: -30px;
+    bottom: -110px;
+}
+
+
+.gen {
+    position: relative;
+
+}
+
+.gen::after {
+    content: url("images/Vector.png");
+    position: absolute;
+    bottom: -25px;
+    left: 10px;
+}
+
+
+.container-esp {
+    background: linear-gradient(to right, #000000 55.96%, #57B8FF 50%);
+}
+
+
+
+.esports-title {
+    color: #FFFFFF;
+    font-size: 72px;
+    width: 656px;
+    line-height: 86px;
+    text-transform: capitalize;
+    padding-bottom: 45px;
+    position: relative;
+}
+
+
+.esports-title::before {
+    content: url("images/INSTAGRAM.png");
+    position: absolute;
+    left: -30px;
+    top: 140px;
+}
+
+
+.esports-title::after {
+    content: url("images/rob.png");
+    position: absolute;
+    left: 660px;
+    bottom: -190px;
+}
+
+
+.esports-inner {
+    padding-bottom: 175px;
+}
+
+
+.esports-texts {
+    color: #999999;
+    font-size: 18px;
+    width: 615px;
+    line-height: 28px;
+    padding-bottom: 53px;
+    position: relative;
+}
+
+
+.esports-texts::before {
+   content: url("images/FACEBOOK.png");
+   position: absolute;
+   left: -30px;
+   top: -20px;
+}
+
+
+
+.btn-more-link {
+    background: #57B8FF;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    width: 203px;
+    padding: 24px 0 24px 0;
+    
+}
+
+
+.btn-team-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    width: 148px;
+    padding: 24px 0 24px 0;
+}
+
+
+.btn-more-team {
+   display: flex;
+   gap: 40px;
+}
+
+
+.facebook {
+    color: #80858F;
+    font-size: 11px;
+    width: 81px;
+    margin-right: 49px;
+}
+
+
+.instagram {
+    color: #80858F;
+    font-size: 11px;
+    width: 105px;
+    margin-right: 22px;
+}
+
+
+.twitch {
+    color: #80858F;
+    font-size: 11px;
+    width: 113px;
+}
+
+
+.text {
+    display: flex;
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 2160px;
+    left: -145px;
+}
+
+
+
+.vector {
+    display: block;
+    position: absolute;
+    top: 2164px;
+    width: 434px;
+    left: 278px;
+}
+
+
+
+
+.future {
+    color: #57B8FF;
+    font-size: 16px;
+    padding-top: 6px;
+}
+
+
+.customize-inner {
+    display: flex;
+    gap: 128px;
+    
+}
+
+
+
+
+.customize-image-text {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+
+
+
+
+.cus-your {
+    color: #FFFFFF;
+    font-size: 64px;
+    text-transform: capitalize;
+}
+
+
+.own {
+    color: #FFFFFF;
+    font-size: 63px;
+    text-transform: capitalize;
+    margin-bottom: 38px;
+}
+
+
+.ow {
+    padding-top: 10px;
+}
+
+
+.character {
+    padding-top: 5px;
+}
+
+
+.cust-sed {
+    color: #DFDFDFCC;
+    width: 561px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 54px;
+}
+
+
+
+.images-cust {
+    display: flex;
+    gap: 30px;
+    
+}
+
+
+
+.customize-text {
+    padding-top: 89px;
+}
+
+
+
+.container-cust {
+   background: #000000E0;
+   height: 695px;
+   
+}
+
+
+
+.your {
+    border: 1px solid #3B3D46;
+    padding: 10px;
+    background: #3B3D46;
+    border-radius: 20px;
+    
+}
+
+
+.container-latest {
+    background: #000000;
+}
+
+
+.des {
+    font-size: 16px;
+    color: #57B8FF;
+    text-transform: uppercase;
+    padding-top: 6px;
+}
+
+
+.image-future {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+
+.news {
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 64px;
+}
+
+
+.acticles {
+    color: #FFFFFF;
+    font-size: 64px;
+    text-transform: capitalize;
+
+}
+
+
+
+.info {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 17px;
+    display: block;
+    background: #57B8FF;
+    padding: 21px 34px 21px 34px;
+    
+}
+
+
+.latest-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 64px;
+    padding-top: 136px;
+}
+
+
+
+
+.colts-image {
+    margin-bottom: 54px;
+}
+
+
+.colts-text {
+    color: #57B8FF;
+    font-size: 18px;
+    margin-bottom: 28px;
+}
+
+
+.indianapolis {
+    color: #FFFFFF;
+    width: 607px;
+    font-size: 36px;
+    text-transform: capitalize;
+    
+}
+
+
+.navi-image {
+    margin-bottom: 30px;
+}
+
+
+.navi-date {
+    color: #57B8FF;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+
+.fifth {
+    color: #FFFFFF;
+    font-size: 23px;
+    text-transform: capitalize;
+    width: 281px;
+}
+
+
+.shares-text {
+    font-size: 24px;
+    color: #FFFFFF;
+    width: 302px;
+    text-transform: capitalize;
+}
+
+
+.rx-text {
+    color: #FFFFFF;
+    font-size: 23px;
+    text-transform: capitalize;
+    width: 268px;
+}
+
+
+.razer-text {
+    color: #FFFFFF;
+    font-size: 24px;
+    text-transform: capitalize;
+    width: 283px;
+}
+
+
+.images-menu-list-item {
+   list-style: none;
+}
+
+
+.teams-container {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 110px;
+}
+
+
+.images-menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 38px 21px;
+}
+
+
+
